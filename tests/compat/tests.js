@@ -1312,10 +1312,6 @@ GLOBAL.tests = {
     return Map.prototype.update;
   },
   // TODO: Remove from `core-js@4`
-  'esnext.map.update-or-insert': function () {
-    return Map.prototype.updateOrInsert;
-  },
-  // TODO: Remove from `core-js@4`
   'esnext.map.upsert': function () {
     return Map.prototype.upsert;
   },
