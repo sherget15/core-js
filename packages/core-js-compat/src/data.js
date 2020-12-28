@@ -659,9 +659,15 @@ const data = {
     ie: '9',
     safari: '7.1',
   },
-  'es.promise': {
+  'es.promise.constructor': {
     // V8 6.6 has a serious bug
     chrome: '67', // '51',
+    firefox: '69',
+    safari: '11.0',
+  },
+  // TODO: confirm
+  'es.promise.all': {
+    chrome: '67',
     firefox: '69',
     safari: '11.0',
   },
@@ -675,6 +681,11 @@ const data = {
     firefox: '79',
     safari: '14.0',
   },
+  'es.promise.catch': {
+    chrome: '67',
+    firefox: '69',
+    safari: '11.0',
+  },
   'es.promise.finally': {
     // V8 6.6 has a serious bug
     chrome: '67', // '63',
@@ -683,6 +694,22 @@ const data = {
     // https://bugs.webkit.org/show_bug.cgi?id=200788
     ios: '13.2.3', // need to clarify the patch release, >13.0.0 && <= 13.2.3
     safari: '13.0.3', // need to clarify the patch release, >13.0.0 && <= 13.0.3
+  },
+  // TODO: confirm
+  'es.promise.race': {
+    chrome: '67',
+    firefox: '69',
+    safari: '11.0',
+  },
+  'es.promise.reject': {
+    chrome: '67',
+    firefox: '69',
+    safari: '11.0',
+  },
+  'es.promise.resolve': {
+    chrome: '67',
+    firefox: '69',
+    safari: '11.0',
   },
   'es.reflect.apply': {
     chrome: '49',
