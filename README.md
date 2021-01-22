@@ -188,12 +188,6 @@ import fill from 'core-js-pure/features/array/virtual/fill';
 import findIndex from 'core-js-pure/features/array/virtual/find-index';
 
 Array(10)::fill(0).map((a, b) => b * b)::findIndex(it => it && !(it % 8)); // => 4
-
-// or
-
-import { fill, findIndex } from 'core-js-pure/features/array/virtual';
-
-Array(10)::fill(0).map((a, b) => b * b)::findIndex(it => it && !(it % 8)); // => 4
 ```
 
 > **Warning!** The bind operator is an early-stage ECMAScript proposal and usage of this syntax can be dangerous.
