@@ -61,7 +61,6 @@
     "puppeteer": ">=9.1.1 <10",
     "qunit": "^2.16.0",
     "semver": "^7.3.5",
-    "terser": "^5.7.0",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.0"
   },
