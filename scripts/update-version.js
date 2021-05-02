@@ -39,8 +39,9 @@ const CURRENT_YEAR = now.getFullYear();
     const pkg = JSON.parse(await readFile(PATH, 'utf8'));
     pkg.version = NEW_VERSION;
     for (const field of ['dependencies', 'devDependencies']) {
-      if (pkg[field]) for (const dependency of packages) {
-        if (pkg[field][dependency]) pkg[field][dependency] = NEW_VERSION;
+      const dependencies = pkg[field];
+      if (dependencies) for (const dependency of Object.keys(dependencies)) {
+        if (dependency.includes('core-js')) dependencies[dependency] = NEW_VERSION;
       }
     }
     await writeFile(PATH, `${ JSON.stringify(pkg, null, '  ') }\n`);
