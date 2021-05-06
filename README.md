@@ -2179,7 +2179,7 @@ console.log(compositeSymbol(1, a, 2, b) === compositeSymbol(1, a, 2, b)); // => 
 console.log(compositeSymbol(a, a) === compositeSymbol(a, a)); // => true
 ```
 ##### [`Observable`](https://github.com/zenparsing/es-observable)[⬆](#index)
-Modules [`esnext.observable`](https://github.com/zloirock/core-js/blob/master/packages/core-js/modules/esnext.observable.js) and [`esnext.symbol.observable`](https://github.com/zloirock/core-js/blob/master/packages/core-js/modules/esnext.symbol.observable.js)
+Modules [`esnext.observable.constructor`](https://github.com/zloirock/core-js/blob/master/packages/core-js/modules/esnext.observable.constructor.js), [`esnext.observable.from`](https://github.com/zloirock/core-js/blob/master/packages/core-js/modules/esnext.observable.from.js), [`esnext.observable.of`](https://github.com/zloirock/core-js/blob/master/packages/core-js/modules/esnext.observable.of.js) and [`esnext.symbol.observable`](https://github.com/zloirock/core-js/blob/master/packages/core-js/modules/esnext.symbol.observable.js)
 ```js
 class Observable {
   constructor(subscriber: Function): Observable;
@@ -2198,6 +2198,9 @@ class Symbol {
 ```js
 core-js/proposals/observable
 core-js(-pure)/full/observable
+core-js(-pure)/full/observable/constructor
+core-js(-pure)/full/observable/from
+core-js(-pure)/full/observable/of
 core-js(-pure)/full/symbol/observable
 ```
 [*Examples*](http://goo.gl/1LDywi):
