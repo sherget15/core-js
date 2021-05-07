@@ -1,11 +1,10 @@
 'use strict';
 const data = {
-  // TODO: confirm
   'es.symbol.constructor': {
-    chrome: '49',
-    edge: '15',
-    firefox: '51',
-    safari: '10.0',
+    chrome: '41',
+    edge: '13',
+    firefox: '36',
+    safari: '9.0',
   },
   'es.symbol.description': {
     chrome: '70',
@@ -17,12 +16,11 @@ const data = {
     firefox: '55',
     safari: '12.0',
   },
-  // TODO: confirm
   'es.symbol.for': {
-    chrome: '49',
-    edge: '15',
-    firefox: '51',
-    safari: '10.0',
+    chrome: '41',
+    edge: '13',
+    firefox: '36',
+    safari: '9.0',
   },
   'es.symbol.has-instance': {
     chrome: '50',
@@ -42,12 +40,11 @@ const data = {
     firefox: '36',
     safari: '9.0',
   },
-  // TODO: confirm
   'es.symbol.key-for': {
-    chrome: '49',
-    edge: '15',
-    firefox: '51',
-    safari: '10.0',
+    chrome: '41',
+    edge: '13',
+    firefox: '36',
+    safari: '9.0',
   },
   'es.symbol.match': {
     chrome: '50',
@@ -585,12 +582,11 @@ const data = {
     firefox: '34',
     safari: '9.0',
   },
-  // TODO: confirm
   'es.object.get-own-property-symbols': {
-    chrome: '49',
-    edge: '15',
-    firefox: '51',
-    safari: '10.0',
+    chrome: '41',
+    edge: '13',
+    firefox: '36',
+    safari: '9.0',
   },
   'es.object.get-prototype-of': {
     chrome: '44',
