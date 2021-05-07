@@ -4,5 +4,6 @@ var USE_SYMBOL_AS_UID = require('../internals/use-symbol-as-uid');
 module.exports = USE_SYMBOL_AS_UID ? function (it) {
   return typeof it == 'symbol';
 } : function (it) {
-  return Object(it) instanceof getBuiltIn('Symbol');
+  var $Symbol = getBuiltIn('Symbol');
+  return typeof $Symbol == 'function' && Object(it) instanceof $Symbol;
 };
