@@ -1,6 +1,7 @@
 'use strict';
 const data = {
-  'es.symbol': {
+  // TODO: confirm
+  'es.symbol.constructor': {
     chrome: '49',
     edge: '15',
     firefox: '51',
@@ -15,6 +16,13 @@ const data = {
     chrome: '63',
     firefox: '55',
     safari: '12.0',
+  },
+  // TODO: confirm
+  'es.symbol.for': {
+    chrome: '49',
+    edge: '15',
+    firefox: '51',
+    safari: '10.0',
   },
   'es.symbol.has-instance': {
     chrome: '50',
@@ -33,6 +41,13 @@ const data = {
     edge: '13',
     firefox: '36',
     safari: '9.0',
+  },
+  // TODO: confirm
+  'es.symbol.key-for': {
+    chrome: '49',
+    edge: '15',
+    firefox: '51',
+    safari: '10.0',
   },
   'es.symbol.match': {
     chrome: '50',
