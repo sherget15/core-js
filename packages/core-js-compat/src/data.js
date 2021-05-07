@@ -87,6 +87,7 @@ const data = {
     firefox: '44',
     safari: '10.0',
   },
+  // TODO: confirm
   'es.symbol.to-string-tag': {
     chrome: '49',
     edge: '15',

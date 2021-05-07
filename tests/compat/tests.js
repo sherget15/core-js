@@ -193,9 +193,7 @@ function createStringTrimMethodTest(METHOD_NAME) {
 }
 
 GLOBAL.tests = {
-  'es.symbol.constructor': [SYMBOLS_SUPPORT, function () {
-    return Symbol.prototype[Symbol.toStringTag];
-  }],
+  'es.symbol.constructor': SYMBOLS_SUPPORT,
   'es.symbol.description': function () {
     return Symbol('foo').description == 'foo' && Symbol().description === undefined;
   },
@@ -240,7 +238,7 @@ GLOBAL.tests = {
       && Symbol.prototype[Symbol.toPrimitive];
   }],
   'es.symbol.to-string-tag': [SYMBOLS_SUPPORT, function () {
-    return Symbol.toStringTag;
+    return Symbol.toStringTag && Symbol.prototype[Symbol.toStringTag];
   }],
   'es.symbol.unscopables': [SYMBOLS_SUPPORT, function () {
     return Symbol.unscopables;
