@@ -80,6 +80,7 @@ const data = {
     firefox: '49',
     safari: '10.0',
   },
+  // TODO: confirm
   'es.symbol.to-primitive': {
     chrome: '47',
     edge: '15',
