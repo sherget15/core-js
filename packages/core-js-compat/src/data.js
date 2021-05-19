@@ -285,7 +285,7 @@ const data = {
     ie: '11',
     safari: '12.1',
   },
-  'es.data-view': {
+  'es.data-view.constructor': {
     chrome: '26',
     firefox: '15',
     ie: '10',
