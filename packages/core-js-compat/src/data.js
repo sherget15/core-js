@@ -95,7 +95,7 @@ const data = {
     firefox: '48',
     safari: '9.0',
   },
-  'es.aggregate-error': {
+  'es.aggregate-error.constructor': {
     chrome: '85',
     firefox: '79',
     safari: '14.0',
