@@ -10,7 +10,7 @@ var arrayFrom = require('../internals/array-from');
 var codeAt = require('../internals/string-multibyte').codeAt;
 var toASCII = require('../internals/string-punycode-to-ascii');
 var setToStringTag = require('../internals/set-to-string-tag');
-var URLSearchParamsModule = require('../modules/web.url-search-params');
+var URLSearchParamsModule = require('../modules/web.url-search-params.constructor');
 var InternalStateModule = require('../internals/internal-state');
 
 var NativeURL = global.URL;
