@@ -338,7 +338,7 @@ const data = {
     firefox: '51',
     safari: '10.0',
   },
-  'es.map': {
+  'es.map.constructor': {
     chrome: '51',
     edge: '15',
     firefox: '53',
@@ -844,7 +844,7 @@ const data = {
     firefox: '46',
     safari: '10.0',
   },
-  'es.set': {
+  'es.set.constructor': {
     chrome: '51',
     edge: '15',
     firefox: '53',
@@ -1254,13 +1254,13 @@ const data = {
     firefox: '51',
     safari: '10.0',
   },
-  'es.weak-map': {
+  'es.weak-map.constructor': {
     chrome: '51',
     edge: '15',
     firefox: '53',
     safari: '10.0',
   },
-  'es.weak-set': {
+  'es.weak-set.constructor': {
     chrome: '51',
     edge: '15',
     firefox: '53',
