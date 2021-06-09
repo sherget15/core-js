@@ -87,4 +87,7 @@ module.exports = {
     'esnext.symbol.matcher',
     'esnext.symbol.metadata',
   ],
+  3.15: [
+    'es.regexp.dot-all',
+  ],
 };
