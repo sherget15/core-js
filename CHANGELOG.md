@@ -1,6 +1,8 @@
 ## Changelog
 ##### Unreleased
-- Fixed detection of forbidden host code points in URL polyfill
+- Added `RegExp` named capture groups polyfill, [#521](https://github.com/zloirock/core-js/issues/521)
+- Added `RegExp` `dotAll` flag polyfill, [#792](https://github.com/zloirock/core-js/issues/792)
+- Fixed detection of forbidden host code points in `URL` polyfill
 - Allowed `rhino` target in `core-js-compat` / `core-js-builder`, added compat data for `rhino` 1.7.13, [#942](https://github.com/zloirock/core-js/issues/942), thanks [@gausie](https://github.com/gausie)
 - `.at` marked as supported from FF90
 
